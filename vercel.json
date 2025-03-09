@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "regions": ["hkg1"],
+  "regions": ["hkg1", "sfo1" ,"pek1", "syd1","sgp1","fra1","lon1","nyc1","ams1","sin1","tor1","bom1","mel1","sao1"],
   "builds": [
     {
         "src": "package.json",
