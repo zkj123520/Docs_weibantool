@@ -28,8 +28,7 @@
       "src": "/(.*)",
       "dest": "/$1",
       "headers": {
-        "X-CDN-Provider": "TencentCloud",
-        "X-China-Cache": "force"
+        "Cache-Control": "public, max-age=0, must-revalidate"
       }
     }
   ]
