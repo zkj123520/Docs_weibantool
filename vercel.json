@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "regions": ["hkg1", "sfo1" ],
+  "regions": ["sfo1" ],
   "builds": [
     {
         "src": "package.json",
