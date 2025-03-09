@@ -3,8 +3,8 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
-    "build": "vitepress build",
-    "postbuild": "mv .vitepress/dist dist" 
+    "postinstall": "chmod +x node_modules/.bin/vitepress && chmod +x node_modules/vite/bin/vite.js",
+    "build": "vitepress build --outDir dist"
   },
  "devDependencies": {
     "vitepress": "^1.6.3",
