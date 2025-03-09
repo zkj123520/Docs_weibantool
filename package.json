@@ -3,10 +3,10 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
-    "postinstall": "chmod +x node_modules/.bin/vitepress",
-    "build": "vitepress build docs"
+    "build": "vitepress build",
+    "postbuild": "mv .vitepress/dist dist" 
   },
-  "devDependencies": {
+ "devDependencies": {
     "vitepress": "^1.6.3",
     "vue": "^3.5.13"
   },

@@ -3,12 +3,11 @@
   "regions": ["hkg1"],
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": ".vitepress/dist",
-        "include": ["**/*.md", "public/**/*"]
-      }
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"  
+        }
     }
   ],
   "routes": [
